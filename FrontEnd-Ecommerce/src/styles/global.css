@@ -1,0 +1,28 @@
+:root{
+  --mainColor:#6D125F;
+  --textColor:#E0FBFC;
+
+}
+.border{
+  border:2px solid red;
+}
+
+.navbar-nav .dropdown-menu{
+  overflow: hidden;
+  background-color: aliceblue;
+  color: black !important;
+}
+.navbar-nav .dropdown-menu a{
+  color: black !important;
+}
+.navbar-nav .dropdown-menu a:hover,.dropdown-item.active{
+  background-color: var(--mainColor);
+  color:var(--textColor) !important;
+  margin: 0;
+}
+.list-group-item.active{
+  background-color: var(--mainColor);
+  color:var(--textColor) !important;
+border: 1px solid var(--textColor) !important;
+}
+

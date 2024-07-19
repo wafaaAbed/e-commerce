@@ -1,0 +1,31 @@
+.bgNavHeader{
+  background-color: var(--mainColor);
+  color:var(--textColor);;
+}
+.bgNavHeader a{
+color:var(--textColor) !important;
+transition: .4s all ;
+margin-left: 6px;
+}
+.NavHead a:hover{
+  letter-spacing:2px;
+  color:#d4f7ff !important;
+}
+
+.asBtn{
+border: none;
+  margin-left: 10px;
+  height: 40px;
+  transition: .4 all ease-in-out;
+  background-color: #E0FBFC;
+
+
+}
+.asBtn.active{
+  opacity: 1;
+}
+
+.droplistFormat {
+
+color: #111 !important;
+}

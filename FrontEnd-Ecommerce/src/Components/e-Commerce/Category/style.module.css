@@ -1,0 +1,37 @@
+
+.categoryContainer{
+display: flex;
+flex-direction: column;
+width: 160px;
+height:230px;
+justify-content: center;
+align-items: center;
+
+}
+
+.imgContainer{
+width: 160px;
+height: 160px;
+
+}
+.imgContainer img{
+  width: 100%;
+  height: 100%;
+  display: block;
+
+  border-radius: 50%;
+}
+.categoryContainer h3{
+font-size: 20px;
+margin: 10px 0;
+}
+.categoryName{
+  color:var(--mainColor);
+  text-decoration:none !important;
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+}
+.categoryContainer a{
+  text-decoration: none;
+}

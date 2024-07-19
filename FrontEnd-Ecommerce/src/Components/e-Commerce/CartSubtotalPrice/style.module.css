@@ -1,0 +1,19 @@
+.totalPrice{
+  display: flex;
+
+ justify-content: space-between;
+}
+.totalPrice h2{
+font-size: 20px;
+}
+.placeOrderBtn{
+  margin-left: auto;
+  display:flex;
+  margin-top: 10px;
+  background-color: var(--mainColor);
+  border: none;
+  margin-bottom: 30px;
+}
+.placeOrderBtn:hover{
+  background-color: var(--mainColor);
+}

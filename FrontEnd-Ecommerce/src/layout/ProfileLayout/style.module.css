@@ -1,0 +1,12 @@
+.profileNav a{
+
+}
+.profileNav a:hover{
+  background-color: var(--mainColor);
+  color:var(--textColor);
+}
+.profileNav a .list-group-item.active{
+  background-color: var(--mainColor);
+  color:var(--textColor);
+
+}

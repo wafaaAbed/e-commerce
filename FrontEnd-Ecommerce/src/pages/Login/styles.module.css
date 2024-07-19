@@ -1,0 +1,64 @@
+
+.bigContainer{
+  margin: 1px auto;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   height: auto;
+   margin-bottom: 20px;
+  
+}
+.leftSide{
+width: 50%;
+height: 100%;
+padding-top: 40px;
+}
+.rightSide{
+position: relative;
+  background: linear-gradient(96deg, rgba(109, 18, 95, .5) 0%, rgba(194, 223, 227, 1) 58%, rgba(224, 251, 252, 1) 87%);
+  width: 50%;
+  height: 100%;
+  text-transform: uppercase;
+  color:var(--mainColor) ;
+  box-shadow: 5px 5px 5px 0px gray;
+}
+
+.rightSide button{
+  background-color: var(--mainColor);
+  border: 2px solid transparent;
+  color:var(--textColor);
+  transition: .4s linear all;
+}
+.rightSide button:hover{
+  background-color: #fff;
+  color:var(--mainColor);
+  letter-spacing: 4px;
+  border: 2px solid var(--mainColor);
+}
+.rightSide input{
+  border:2px solid transparent
+}
+.rightSide input:active,.rightSide input:focus,.rightSide input:target{
+  border:2px solid var(--mainColor);
+  box-shadow: none;
+}
+.rightSide::after,.rightSide::before{
+  position: absolute;
+  content: "";
+  background-color: var(--mainColor);
+opacity: .3;
+border-radius: 50%;
+}
+.rightSide::after{
+top: -30px;
+right:-100px;
+width: 150px;
+height: 150px;
+}
+.rightSide::before{
+  bottom: -20px;
+  right:-60px;
+  width: 100px;
+  height: 100px;
+  }

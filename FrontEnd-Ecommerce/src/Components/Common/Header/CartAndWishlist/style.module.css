@@ -1,0 +1,22 @@
+.counter{
+  position:absolute ;
+  width: 17px;
+  height:17px;
+  background-color: rgb(147, 173, 243) !important;
+  border: 1px solid var(--mainColor);
+  color:rgb(66, 66, 66);
+  text-align: center;
+  top: 0;
+  left:49%;
+  padding: 2px;
+ 
+}
+.IconDesgin{
+  position: relative;
+}
+.IconDesgin svg{
+  font-size: 1.5rem;
+}
+.IconDesgin:first-child svg{
+  color:red !important;
+}
